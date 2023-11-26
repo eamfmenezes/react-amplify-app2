@@ -1,9 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
+import {
+  NavBarHeader2 
+ } from './ui-components';
+ 
+ 
+
 function App() {
   return (
     <div className="App">
+      <NavBarHeader2 width={"100%"} />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
